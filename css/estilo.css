@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap');
+
+#meu_menu {
+    /* abrindo id */
+    text-align: right;
+
+    /* pading margem interna */
+    padding-right: 60px;
+    /* colocando borda inferior */
+    border-bottom: solid;
+    /* tamanho da fonte do menu */
+    font-size: 25px;
+    font-family: 'Roboto Mono', monospace;
+
+}
+
+/* fechando id */
+/* chamando classe mae */
+#meu_menu a {
+    text-decoration: none;
+    color: #000;
+}
+
+/* colocando efeitp de sobre menu */
+#meu_menu a:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgba(69, 143, 199, 0.251);
+    transition: 0.5s;
+    opacity: 0.7s;
+    border-radius: 5px;
+
+}
+
+/* trabalho com classe titulo */
+.titulo {
+    text-align: center;
+    background-color: rgba(69, 143, 220, 0.185);
+    border-style: double;
+    color: rgb(0, 0, 0);
+    border: width 5px;
+}
+
+/* trabalhando com imagem div */
+#fundo {
+    display: flex;
+    background-color: ;
+    justify-content: center;
+}
+
+img {
+    width: 30%;
+
+}
+
+/* trabalhando com div principal */
+.master{
+    display: flex;
+}
+.col_direita{
+    margin-right: 30px;
+    text-align: justify;
+
+}
+.col_esquerda{
+    margin-left: 30px;
+    
+}
+.titulo_col{
+    text-align: center;
+    background-color: aqua;
+}
